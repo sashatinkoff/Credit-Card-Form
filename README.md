@@ -25,7 +25,8 @@ val cardType = CardType() // Create the new card type
 creditCards.appendCard(cardType)
 </pre>
 
-A card contains the formatting rule. For example, Visa has a following rule: XXXX XXXX XXXX XXXX, American Express - XXXX XXXXXX XXXXX, etc.
+A card contains it's own formatting rule. 
+For example, Visa has a following rule: XXXX XXXX XXXX XXXX, American Express - XXXX XXXXXX XXXXX, etc.
 So, for Visa we use following rule: <code>addRule(4, 4, 4, 4)</code>, for Amex - <code>addRule(4, 6, 5)</code>
 
 You can get the list of default card types here:
